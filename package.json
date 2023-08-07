@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate:provinces": "tsx scripts/generate/provinces.ts",
+    "generate:districts": "tsx scripts/generate/districts.ts",
+    "generate:subdistricts": "tsx scripts/generate/subdistricts.ts",
+    "generate:villages": "tsx scripts/generate/villages.ts",
+    "generate": "pnpm generate:provinces && pnpm generate:districts && pnpm generate:subdistricts && pnpm generate:villages",
+    "test": "vitest run",
+    "start": "tsx scripts/server/main.ts"
+  },
+  "devDependencies": {
+    "@hono/node-server": "^1.1.1",
+    "@regions-of-indonesia/data": "5.0.0-4",
+    "@regions-of-indonesia/types": "1.0.0-0",
+    "@regions-of-indonesia/utils": "1.0.0-3",
+    "@types/node": "^20.4.8",
+    "fs-jetpack": "^5.1.0",
+    "hono": "^3.3.4",
+    "tsx": "^3.12.7",
+    "vitest": "^0.34.1"
+  }
+}
