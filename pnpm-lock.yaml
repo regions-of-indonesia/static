@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^5.1.0
     version: 5.1.0
   hono:
-    specifier: ^3.3.4
-    version: 3.3.4
+    specifier: ^3.4.1
+    version: 3.4.1
   tsx:
     specifier: ^3.12.7
     version: 3.12.7
@@ -696,8 +696,8 @@ packages:
       resolve-pkg-maps: 1.0.0
     dev: true
 
-  /hono@3.3.4:
-    resolution: {integrity: sha512-lqvcsQrXS0bSydj/MkOXi3opAwrlauIjZefhXMMRj9prABfBWdrYHSrWk/xfxgxNPs4yuEMh2Z5zV0L2b1Jmdw==}
+  /hono@3.4.1:
+    resolution: {integrity: sha512-fA7/cfgNg060mt12cYykdstwqM/bRvqYmQlPpEjoKIwMs6QF1rPJzZjppCrFuZZJvKE1vEP6kEAaaDH96XRg7Q==}
     engines: {node: '>=16.0.0'}
     dev: true
 
