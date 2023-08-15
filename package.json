@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@hono/node-server": "^1.1.1",
-    "@regions-of-indonesia/data": "5.0.0-4",
+    "@regions-of-indonesia/data": "5.0.0",
     "@regions-of-indonesia/types": "1.0.0-0",
     "@regions-of-indonesia/utils": "1.0.0-3",
     "@types/node": "^20.4.8",

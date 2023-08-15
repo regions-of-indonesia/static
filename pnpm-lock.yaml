@@ -5,8 +5,8 @@ devDependencies:
     specifier: ^1.1.1
     version: 1.1.1
   '@regions-of-indonesia/data':
-    specifier: 5.0.0-4
-    version: 5.0.0-4
+    specifier: 5.0.0
+    version: 5.0.0
   '@regions-of-indonesia/types':
     specifier: 1.0.0-0
     version: 1.0.0-0
@@ -464,8 +464,8 @@ packages:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
     dev: true
 
-  /@regions-of-indonesia/data@5.0.0-4:
-    resolution: {integrity: sha512-hUiL8tbR/fd2MMKEfXRp9fYTFm+9XAY9LLcaOEFKa1xTtsuCAMy5ApRhiWJNFgycA4DKbGRvQIHHhxTh5dPGTw==}
+  /@regions-of-indonesia/data@5.0.0:
+    resolution: {integrity: sha512-iXInT/UCO0Uk4whudKYrdMgiAgQjgHfxJVH7WCdKOP0K0JPlSKz5D7G+mQQD8KrBKOE2Coevc6W00iW1inETtg==}
     dev: true
 
   /@regions-of-indonesia/types@1.0.0-0:
