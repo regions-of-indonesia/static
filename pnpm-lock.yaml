@@ -5,14 +5,14 @@ devDependencies:
     specifier: ^1.1.1
     version: 1.1.1
   '@regions-of-indonesia/data':
+    specifier: 5.0.2
+    version: 5.0.2
+  '@regions-of-indonesia/types':
     specifier: 5.0.1
     version: 5.0.1
-  '@regions-of-indonesia/types':
-    specifier: 5.0.0
-    version: 5.0.0
   '@regions-of-indonesia/utils':
-    specifier: 5.0.0
-    version: 5.0.0
+    specifier: 5.0.1
+    version: 5.0.1
   '@types/node':
     specifier: ^20.4.8
     version: 20.4.8
@@ -464,16 +464,16 @@ packages:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
     dev: true
 
-  /@regions-of-indonesia/data@5.0.1:
-    resolution: {integrity: sha512-8JukMJeHa7rHoUoNRFbqDQgqIgfAMrfiupf+GsGGvC8us4yXLnI4mouW29z79tGbbJiQwPJzw560oHDYRdT02w==}
+  /@regions-of-indonesia/data@5.0.2:
+    resolution: {integrity: sha512-WONhV3ikSWhhF3w/7Si5Z/QtPK+AX9QbYVRT0WAv8GWYogBo4g+94fH1E5ygYG14acTWNTHpHtmSg8kndt1eCQ==}
     dev: true
 
-  /@regions-of-indonesia/types@5.0.0:
-    resolution: {integrity: sha512-CwMyC9c0blQQYA2MFMWeFrHy/uQlsbcvYq/JKOrl/31wfKPFRYBVZUTRa0kfHIDReNCaFStnyXekLsowTl5FpA==}
+  /@regions-of-indonesia/types@5.0.1:
+    resolution: {integrity: sha512-uf8MB/0BgwQ+SdvgAR0E8KmFCKPSC8q4Hy2ubvaLm/NKJVfhkyjElXMBDwdWMq8qd9LRNtsezvkYG/saimEhHg==}
     dev: true
 
-  /@regions-of-indonesia/utils@5.0.0:
-    resolution: {integrity: sha512-ykGtWicGMgXN07ernz2i49yQE4lYYFpACn0mMLLmpSDkmvn6GcSErdC4BFnRDRAzRV50n3kCO4Y4GqykHTzzew==}
+  /@regions-of-indonesia/utils@5.0.1:
+    resolution: {integrity: sha512-bFFdE6lWtlhaZzPQ6go7oQ0yDMO2/skqV8t8KC2MrbUGkbF3x451SZqDSFdzIIUtKLl1e6G1U//4Ru5v/UONeA==}
     dev: true
 
   /@sinclair/typebox@0.27.8:
