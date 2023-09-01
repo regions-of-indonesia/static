@@ -15,10 +15,10 @@
     "@regions-of-indonesia/data": "5.0.2",
     "@regions-of-indonesia/types": "5.0.1",
     "@regions-of-indonesia/utils": "5.0.1",
-    "@types/node": "^20.4.8",
+    "@types/node": "^20.5.7",
     "fs-jetpack": "^5.1.0",
-    "hono": "^3.4.1",
+    "hono": "^3.5.6",
     "tsx": "^3.12.7",
-    "vitest": "^0.34.1"
+    "vitest": "^0.34.3"
   }
 }
