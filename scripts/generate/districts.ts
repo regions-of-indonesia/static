@@ -1,5 +1,5 @@
 import type { Region } from "@regions-of-indonesia/types";
-import { DISTRICT } from "@regions-of-indonesia/data/district";
+import DISTRICT from "@regions-of-indonesia/data/district";
 import { joinRegionCode, splitRegionCode } from "@regions-of-indonesia/utils";
 
 import { __provinces__, __districts__, write, region, select, start } from "./shared";

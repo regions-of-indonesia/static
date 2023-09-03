@@ -1,5 +1,5 @@
 import type { Region } from "@regions-of-indonesia/types";
-import { PROVINCE } from "@regions-of-indonesia/data/province";
+import PROVINCE from "@regions-of-indonesia/data/province";
 
 import { __provinces__, write, region, select, start } from "./shared";
 
