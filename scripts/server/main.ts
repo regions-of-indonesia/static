@@ -1,9 +1,11 @@
 import { createAdaptorServer } from "@hono/node-server";
 
 const serve = async () => {
-  const app = (await import("./app")).default;
+  console.time("app");
+  const create = (await import("./app")).default;
+  console.timeEnd("app");
 
-  const server = createAdaptorServer({ fetch: app.fetch });
+  const server = createAdaptorServer({ fetch: create().fetch });
 
   const port = 8100;
   const hostname = "0.0.0.0";

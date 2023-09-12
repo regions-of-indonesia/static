@@ -4,7 +4,9 @@ import { isRegion, isRegions } from "@regions-of-indonesia/utils";
 
 import { base } from "../config";
 
-import app from "./app";
+import create from "./app";
+
+const app = create();
 
 type FetchCallback = (response: Response) => Promise<void>;
 
