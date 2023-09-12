@@ -5,7 +5,9 @@ const serve = async () => {
   const create = (await import("./app")).default;
   console.timeEnd("app");
 
-  const server = createAdaptorServer({ fetch: create().fetch });
+  const { logger } = await import("hono/logger");
+
+  const server = createAdaptorServer({ fetch: create((app) => app.use("*", logger())).fetch });
 
   const port = 8100;
   const hostname = "0.0.0.0";
