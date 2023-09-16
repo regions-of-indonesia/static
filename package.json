@@ -12,13 +12,13 @@
   },
   "devDependencies": {
     "@hono/node-server": "^1.1.1",
-    "@regions-of-indonesia/data": "5.2.0",
-    "@regions-of-indonesia/types": "5.1.0",
-    "@regions-of-indonesia/utils": "5.1.0",
-    "@types/node": "^20.6.0",
+    "@regions-of-indonesia/data": "5.2.1",
+    "@regions-of-indonesia/types": "5.1.1",
+    "@regions-of-indonesia/utils": "5.1.1",
+    "@types/node": "^20.6.1",
     "fs-jetpack": "^5.1.0",
-    "hono": "^3.6.0",
-    "tsx": "^3.12.9",
+    "hono": "^3.6.1",
+    "tsx": "^3.12.10",
     "vitest": "^0.34.4"
   }
 }
