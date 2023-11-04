@@ -15,9 +15,9 @@
     "@regions-of-indonesia/data": "5.2.2",
     "@regions-of-indonesia/types": "5.1.2",
     "@regions-of-indonesia/utils": "5.1.2",
-    "@types/node": "^20.8.6",
+    "@types/node": "^20.8.10",
     "fs-jetpack": "^5.1.0",
-    "hono": "^3.8.1",
+    "hono": "^3.9.2",
     "tsx": "^3.14.0",
     "vitest": "^0.34.6"
   }
