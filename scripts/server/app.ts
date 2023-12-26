@@ -17,23 +17,12 @@ const create = (init: (hono: Hono) => Hono = (hono) => hono) => {
   app.use(`/${base}/*`, serveStatic({ root: "./dist" }));
 
   app
-    .get("/", (ctx) => {
-      return ctx.body("regions-of-indonesia");
-    })
-    .notFound((ctx) => {
-      return ctx.body("Not found", 404);
-    })
+    .get("/", (ctx) => ctx.body("regions-of-indonesia"))
+    .notFound((ctx) => ctx.body("Not found", 404))
     .onError((err, ctx) => {
-      if (err instanceof HTTPException) {
-        return err.getResponse();
-      }
-
+      if (err instanceof HTTPException) return err.getResponse();
       let message = "Internal server error";
-
-      if (err instanceof Error) {
-        message = err.message;
-      }
-
+      if (err instanceof Error) message = err.message;
       return ctx.body(message, 500);
     });
 
